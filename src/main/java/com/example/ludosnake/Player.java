@@ -45,6 +45,7 @@ public class Player {
         TranslateTransition animate = new TranslateTransition(Duration.millis(1000), this.gamePiece);
         animate.setToX(this.xPosition);
         animate.setToY(this.yPosition);
+        animate.play();
 
 
 
